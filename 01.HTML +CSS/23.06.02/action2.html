@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        p:first-child
+        p :first-child 띄어쓰기 조심!!!
+        */
+        p:first-child{
+            color: lime;
+
+        }
+
+        p:last-child{
+            color: red;
+            background-color: black;
+            padding: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>first child</p>
+            <p>second child</p>
+        </div>
+    </div>
+    
+    <div>
+        <p>p태그가 아니라 선택되지 않았습니다</p>
+    </div>
+</body>
+</html>

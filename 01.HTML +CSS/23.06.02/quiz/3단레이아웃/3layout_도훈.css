@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+  }
+  
+  #header{
+    width: 1200px;
+    height: 120px;
+    background-color: gray;
+
+  }
+
+  #left-sidebar{
+    width: 250px;
+    height: 600px;
+    background-color: blue;
+    float: left;
+
+  }
+
+  #contents{
+    width: 800px;
+    height: 600px;
+    float: left;
+  }
+
+  #right-sidebar{
+    width: 150px;
+    height: 600px;
+    background-color: blueviolet;
+    float: left;
+  }
+
+  #footer{
+    width: 1200px;
+    height: 100px;
+    background-color: gray;
+    float: left;
+
+  }

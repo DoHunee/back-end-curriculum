@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            width: 600px;
+            height: 700px;
+            border: 3px solid #222;
+            background-color: pink;
+            margin: auto;
+            position: relative;
+        }
+        .s-container {
+            width: 400px;
+            height: 500px;
+            background-color: beige;
+            border-radius: 20px;
+            box-shadow: 0 7px 7px rgba(0,0,0,0.3);
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        img {
+            border-radius: 50%;
+            box-shadow: 0 7px 7px rgba(0,0,0,0.3);
+            position: absolute;
+            left: 100px;
+            top: 50px;
+        }
+        img:hover {
+            transform: scale(110%);
+            transition: 0.2s;
+        }
+        h2 {
+            font-weight: bold;
+            position: absolute;
+            top: 280px;
+            left: 125px;
+        }
+        button {
+            width: 320px;
+            font-size: x-large;
+            font-weight: 1000;
+            line-height: 250%;
+            text-align: center;
+            background-color: #ffe601;
+            border-radius: 30px;
+            box-shadow: 0 7px 7px rgba(0,0,0,0.3);
+            border: none;
+            position: absolute;
+            top: 330px;
+            left: 35px;
+        }
+        button:hover {
+            transform: scale(110%);
+            transition: 0.2s;
+        }
+        p{
+            position: absolute;
+            bottom: 30px;
+            left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+      <div class="s-container">
+        <img src="/01.HTML +CSS/멀티잇/23.06.02/quiz/images/profile.jpg" alt="" height="200px">
+        <h2>EunSeon Kim</h2>
+        <button>follow</button>
+        <p>멀티캠퍼스 백엔드 14기 김은선입니다. <br>
+        5개월 동안 여러분과 함께 하겠습니다.</p>
+      </div>
+    </div>
+</body>
+</html>

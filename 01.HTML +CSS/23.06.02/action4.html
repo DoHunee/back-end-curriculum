@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*span:only-of-type
+         띄어쓰기 조심!!!
+         only one of type  >> 띄어쓰기 다르ㅏ!!!*/
+        span :only-of-type{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 자식 중 유일한 요소를 선태가는 법 only-of-type -->
+    <span>
+        <div>난 div의 첫번째야</div>
+        <p>난 유일한 p야</p>
+        <div></div>
+        <div> 난 div의 두번쨰야
+            <i>난 유일한 i태그야</i>
+            <em>난 첫번재 em이야</em>
+            <em>난 두번재 em이야</em>
+
+        </div>
+    </span>
+    
+</body>
+</html>

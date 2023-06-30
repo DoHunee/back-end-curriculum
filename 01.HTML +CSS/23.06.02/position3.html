@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /*down 박스를  position을 relative 
+            top속성을 위쪽에서 20px 떨어지도록*/
+        .grandparents{
+            background-color: cyan;
+            width: 200px;
+            height: 200px;
+           
+        }
+        .parents{
+            background-color: darkslateblue;
+            width : 100px;
+            height: 100px;
+            position: relative;
+            top: 20px;
+            opacity:50%;  /*투명도*/
+            
+
+        }
+         .child{
+            background-color: blue;
+            width : 50px;
+            height: 50px;
+            position: relative;
+            right: -30px;  /*음수 절댓값으로 간다!*/
+           
+            
+
+        }
+    </style>
+</head>
+
+<!-- 그니까 포지션은 기준점 잡아서 내리는거네!! -->
+
+<body>
+    <h2>조부모 ,부모 ,자식관계일때</h2>
+    <h3>부모를 기준으로 위치가 움직인다</h3>
+   
+    <div class="grandparents">
+        <div class="parents">
+            <div class ='child'>
+
+            </div>
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>

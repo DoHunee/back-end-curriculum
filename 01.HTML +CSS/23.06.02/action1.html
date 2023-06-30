@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:active{
+            color: lime;
+        }
+        a:visited{
+            color: coral;
+        }
+        input:disabled{
+            background-color: aquamarine;
+        }
+        span:hover{
+            background-color: gold;
+            /*마우스 올리면 재생되는 기능 */
+
+        }
+
+        .red-input:focus{
+            background-color: springgreen;
+            color: red;
+
+        }
+
+        .blue-input:focus{
+            background-color: springgreen;
+            color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <button>click</button><br />
+    <a href="https://www.naver.com">naver.com</a><br />
+    <input type="text" placeholder="Name" disabled> ><br />
+    <span>이 영역에 마우스를 올려보세요!</span>
+    <input class="red-input" value="click! red color change!!" > <br />
+    <input class="blue-input" value="click! blue color change!!" > <br />
+    
+    
+</body>
+</html>

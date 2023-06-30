@@ -1,0 +1,21 @@
+p{
+    color : rgb(226, 12, 12);
+    font-size: larger;
+    text-align: center;
+}
+/* 
+h1{
+    font-size: 100px;
+    text-align: center;
+} */
+
+/* 전체 선택!! */
+* {
+    color : blue
+}
+
+
+/* 내 div안에 있는 P를 뜻함 */
+div p{
+    color : coral
+}

@@ -1,0 +1,68 @@
+ *{
+   border-radius: 20px;
+}
+ 
+ 
+ .container{
+ 
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+ header{
+    width:90%;
+    height: 80px;
+    background-color: black;
+    
+}
+   
+ 
+
+main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+ nav{
+    width: 20%;
+    height: 500px;
+    background-color: red;
+    display: inline-block; 
+    
+} 
+
+    
+ 
+
+ article{
+    width: 68%;
+    height: 500px;
+    margin-left: 10px;
+    background-color: yellow;
+    display: inline-block;
+   
+    /* 글자의 수직정렬 기준점이 박스의 최하단
+    기본값이 baseline이기 때문에 
+    vertical-align의 값을 top 등으로 바꿔주면 해결된다. 
+    >> 이거는 구글링*/
+    vertical-align: top;
+
+}
+  
+ 
+
+ footer{
+    width:90%;
+    height: 80px;
+    background-color: green;
+    clear:both;
+   
+}
+      
+ 
+

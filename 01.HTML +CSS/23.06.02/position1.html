@@ -1,0 +1,50 @@
+<!-- 
+    <position> 
+1.static    기본위치(기본값)
+
+2.fixed     웹 브라우저 화면 기준 고정 위치
+
+3.relative  기본위치(static) 기준 상대적인 위치
+            "상대적인"의미이다  기준은 자기 자신을 의미
+            position : relative 자기 자신을 기준으로 top,bottom,right,left
+
+4.absolute  static이 아닌 가장 가까운 조상 기준 상대적 위치
+        특정 태그를 기준으로 움직이고 싶을 때!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 1000vh;
+            /* vh => PX처럼 길이를 나타내는 단위 VERTICAL HEIGHT 약자*/
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            position: static;
+        }
+
+        #second{
+            background-color: aqua;
+            position: fixed;
+        }
+
+    </style>
+</head>
+<!-- second는 마우스를 내려도 고정
+div는 마우스 내리면 없어짐 -->
+
+<body>
+    <div></div>
+    <div id = "second"></div>
+    <div></div>
+    
+</body>
+</html>

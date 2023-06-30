@@ -1,0 +1,131 @@
+<!-- 이렇게 한줄로 표현할 수도 있다-->
+<!-- #hello index.html -->
+
+ <!-- 
+ h >> 제목태그 검색엔진이 키워드를 찾는데 도움
+ link >> 링크
+ br >> 줄바꿈 1번
+ p >> 줄바꿈이 2번
+ div >> 영역바꿈 = 줄바꿈 1번
+ span >> 줄바꿈이 일어나지 않음
+
+ -->
+
+ <!-- shift + !하면 기본구조!!! -->
+<!DOCTYPE html>
+<!-- ctrl + spacebar 하면 주석!!  -->
+<html lang="en">
+
+<!-- head 부분은 페이지의 정보를 나타낸다 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+
+    <title>웹 개발 입문</title>
+     <!-- 이런식으로 css링크 연결-->
+    <link rel = "stylesheet" href="style.css">
+    
+</head>
+
+
+<body>
+    <h1> 제목 입력하는 부분이에요~ </h1>
+    <h2> 제목 입력하는 부분이에요~ </h2>
+    <h3> 제목 입력하는 부분이에요~ </h3>
+    <h4> 제목 입력하는 부분이에요~ </h4>
+    <h5> 제목 입력하는 부분이에요~ </h5>
+    <h6> 제목 입력하는 부분이에요 </h6>
+    
+    <p>
+      <!-- br 태그는 엔터로 생각!! 굳이 감싸지 않아도 괜찮아!! -->
+        O’er all the hilltops<br />
+        Is quiet now,<br />
+        In all the treetops<br />
+        Hearest thou<br />
+      </p>
+
+      <!-- p태그는 줄바꿈 2번 -->
+      <p>   
+        Hardly a breath; 
+        The birds are asleep in the trees:<br />
+        Wait, soon like these<br />
+        Thou too shalt rest.
+      </p>
+
+      <!-- div 태그 중요!! 영역바꿈 = 줄바꿈 -->
+      <p>
+      This is a line of text <div>with some text in a div</div><br /> and some text after.
+      </p>
+
+      <!-- span 태그 범위를 지정할 때 줄바꿈이 없다!! -->
+      <p>
+        This is a line of text <span>with some text in a div</span> and some text after.
+
+      </p>
+      <!-- A태그로 링크 걸기! -->
+      <p>
+        <a href="https://www.notion.so/s-daily-61389495b4cf49d483197531986b1c49"> 도훈 노션으로 바로가기 </a>
+      </p>
+
+
+      <p>  
+        <img  src="mountain.jpg"
+        alt="mountain"
+        width="500"
+        height="200" />
+
+      </p>
+
+ 
+
+      <h2>An Unordered HTML List</h2>
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      
+      <h2>An Ordered HTML List</h2>
+      
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <!--  form tag 부분!! 중요하다!!-->
+      <p>
+        <form action="myform.html">
+          <label for="fname">First name:</label> 
+          <input type="text" id="fname">
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname">
+          <input type="submit">
+        </form>
+
+      </p>
+
+    
+
+      <p>
+        <button type="button">Click Me!</button>
+      </p>
+
+
+      <p>
+      <h2>dobby</h2>
+      <strong><span style = "font-size:23px;">dobby</span></strong>
+      </p>
+
+      
+      
+ 
+
+
+
+</body>
+</html>

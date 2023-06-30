@@ -1,0 +1,66 @@
+/*  display (공간 맞추기!)
+.container {
+	display: flex; flexbox사용하겠다 선언!
+	/* display: inline-flex;}
+*/
+
+
+
+
+ /*배치 방향(=축 방향) 설정(flex-direction) 
+ .container {
+	flex-direction: row;
+	/* flex-direction: column; */
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column-reverse; */
+} */
+
+
+/*줄넘김 처리 설정(flex-wrap) 
+.container {
+	flex-wrap: nowrap;
+	/* flex-wrap: wrap; */
+	/* flex-wrap: wrap-reverse;
+} */
+
+
+/* flex-flow
+.container {
+	flex-flow: row wrap;
+	/* 아래의 두 줄을 줄여 쓴 것 */
+	/* flex-direction: row; */
+	/* flex-wrap: wrap; */
+}
+/* 
+
+
+메인축 방향 정렬(justify-content)
+.container {
+	justify-content: flex-start;
+	/* justify-content: flex-end; */
+	/* justify-content: center; */
+	/* justify-content: space-between; */
+	/* justify-content: space-around; */
+	/* justify-content: space-evenly; */
+} */
+
+/*
+수직축 방향 정렬  (align-items)
+.container {
+	align-items: stretch; 수직축 방향으로 끝까지 늘어난다
+	/* align-items: flex-start; */ 
+	/* align-items: flex-end; */
+	/* align-items: center; */
+	/* align-items: baseline; 베이스 라인 기준으로 정렬*/ 
+}
+
+/*  여러행 정렬 (align-content)
+ .container {
+	flex-wrap: wrap;
+	align-content: stretch;
+	/* align-content: flex-start; */
+	/* align-content: flex-end; */
+	/* align-content: center; */
+	/* align-content: space-between; */
+	/* align-content: space-around; */
+	/* align-content: space-evenly; */

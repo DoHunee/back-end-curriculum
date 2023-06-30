@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        /*홀수 문단*/
+        p:nth-of-type(2n+1){
+            color: red;
+
+        }
+
+        p:nth-of-type(2n){
+            color: blue;
+
+        }
+
+        p:nth-of-type(1){
+            font-style: italic;
+        }
+
+        
+      
+    </Style>
+</head>
+
+<body>
+
+    <!-- 첫번째 문단은 (기울기)
+    p태그 중 짝수 문단  blue
+    p태그 중 짝수 문단  red
+    -->
+
+    <div> 
+        <div>여기는 카운트 세는 곳 아닙니다</div>
+        <p>p1</p>
+        <p>p2</p>
+        <div>여기는 카운트 세는 곳 아닙니다 </div>
+        <p>p3</p>
+    </div>
+    
+</body>
+</html>
